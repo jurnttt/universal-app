@@ -1,5 +1,5 @@
-import { View } from "react-native";
+import { QuestScreen } from "@/features/gamification/screens/QuestScreen";
 
 export default function Index() {
-  return <View className="flex-1 bg-white dark:bg-slate-950" />;
+  return <QuestScreen />;
 }

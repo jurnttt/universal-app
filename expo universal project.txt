@@ -73,8 +73,13 @@ src/
 -------
 power shell 
 -------
-ctrl + c 			#stops the dev server
 
+npx expo start --clear						#runs the dev server
+ctrl + c 							#exits the dev server
+
+
+
+New-Item src\features\gamification\hooks\useGameProgress.ts	#create new file 
 -------
 
 
